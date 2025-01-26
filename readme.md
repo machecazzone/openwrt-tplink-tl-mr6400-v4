@@ -20,6 +20,33 @@ make image PROFILE="tplink_tl-mr6400-v4" PACKAGES="modemmanager"
 ```
 
 ```
+cp /openwrt-imagebuilder-ramips-mt76x8.Linux-x86_64-BUILD_BACKUP/build_dir/target-mipsel_24kc_musl/linux-ramips_mt76x8/tplink_tl-mr6400-v4-kernel.bin /
+
+cd /
+
+ls -lah
+```
+
+
+```
+root@26ba92ad893d:/# ls -lah tplink_tl-mr6400-v4-kernel.bin
+-rw-r--r-- 1 root root 2.2M Jan 26 01:29 tplink_tl-mr6400-v4-kernel.bin
+```
+
+
+
+
+============
+
+
+
+
+
+
+
+
+
+```
 cd /openwrt-imagebuilder-ramips-mt76x8.Linux-x86_64/build_dir/target-mipsel_24kc_musl/linux-ramips_mt76x8
 
 tplink_tl-mr6400-v4-kernel.bin
